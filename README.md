@@ -55,3 +55,6 @@
    }
 ]
 ```
+
+
+![ERD DIAGRAM](https://github.com/Amran-Lab/ADA-Project-Dimensions/blob/master/Pictures/ERD%20diagram%20(UML%20notation).png?raw=true)

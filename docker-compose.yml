@@ -1,9 +1,15 @@
 version: '3.3'
 
 services:
-   db:
+  db:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: 123
     ports:
       - "3306:3306"
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+

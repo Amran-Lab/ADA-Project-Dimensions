@@ -58,3 +58,14 @@
 
 
 ![ERD DIAGRAM](https://github.com/Amran-Lab/ADA-Project-Dimensions/blob/master/Pictures/ERD%20diagram%20(UML%20notation).png?raw=true)
+
+
+
+--------------------------------------------------------------------------------------
+MONGO VERSION
+run docker-compose-up
+run mongo
+run use testBase (creates database called course)
+run use course (creates table called course)
+run node web-server-mongo.js
+curl localhost:5000/get-course

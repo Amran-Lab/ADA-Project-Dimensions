@@ -49,6 +49,6 @@ app.get('/submit-new', function (req, res) {
 });
 
 
-var server = app.listen(5000, function () {
+var server = app.listen(5000, '127.0.0.1', function () {
     console.log('Node server is running..');
 });

@@ -68,4 +68,5 @@ run mongo
 run use testBase (creates database called course)
 run use course (creates table called course)
 run node web-server-mongo.js
+run the command in mongodata.sh
 curl localhost:5000/get-course
